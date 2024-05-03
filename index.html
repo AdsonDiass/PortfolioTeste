@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Adson Dias</title>
+  </head>
+  <body>
+    <div class="caixa-principal">
+      <nav>
+        <h2 class="portfolio">Portfo<span>lio</span></h2>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html#Sobre-mim">Sobre</a></li>
+          <li><a href="./index.html#Projetos">Projetos</a></li>
+          <li><a href="./index.html#Social">Fale comigo</a></li>
+        </ul>
+      </nav>
+
+      <div class="meu-nome">
+        <h1>Adson <span>Dias</span></h1>
+        <h3>Programador Back-End</h3>
+      </div>
+    </div>
+
+    <section id="Sobre-mim">
+      <img src="./img/adson.jpg" alt="Minha foto" />
+      <div>
+        <h2>Sobre mim</h2>
+        <p>
+          Eu sou um programador Back-End, sempre buscando experiências e
+          conhecimentos em tecnologias Back-End e Front-End, entregando
+          trabalhos de qualidade.
+        </p>
+        <a class="Curriculo" href="./img/Currículo.pdf" target="_blank">Baixar Currículo</a>
+
+        <button> <a href="index.html#contato">Entre em contato</a></button>
+      </div>
+      
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades e Tecnologias</h2>
+      <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>PHP</li>
+          <li>Node.js</li>
+          <li>React</li>
+          <li>Angular</li>
+          <li>Vue.js</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>Git</li>
+          <li>  <a href="habilidade.html" class="btn-habilidade">Habilidades e Tecnologias...</a></li>
+      </ul>
+  </section>
+  
+
+    <div class="projetos" id="Projetos">
+      <h2>Principais projetos</h2>
+
+      <div class="card-projetos">
+        <div class="card">
+          <img src="./img/spotify.png" alt="" />
+          <h5>Spotify</h5>
+          <p>
+            Reprodução, pausa e ajuste de volume, proporcionando uma experiência
+            musical envolvente.
+          </p>
+          <a href="https://github.com/AdsonDiass/ProjetoFacul/tree/main/Player%20de%20Musica" target="_blank">Ver Projeto</a>
+        </div>
+
+        <div class="card-1">
+          <img src="./img/Senhaa.png" alt="" />
+          <h5>Gerador de Senha</h5>
+          <p>
+            Gerador de senhas aleatórias que permite ao usuário personalizar o comprimento e a inclusão de letras maiúsculas,
+             números e símbolos.
+          </p>
+          <a href="https://github.com/AdsonDiass/ProjetoFacul/blob/main/Criador%20de%20Senha" target="_blank">Ver Projeto</a>
+        </div>
+
+        <div class="card-2">
+          <img src="./img/cronograma.png" alt="" />
+          <h5>Cronograma de Estudos</h5>
+          <p>
+            Cronograma de estudos para melhorar o foco
+            nos estudos.
+          </p>
+          <a>Ver Projeto</a>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <footer>
+        <h5>Adson Dias</h5>
+        <p>Para mais informações</p>
+
+        <div class="Social" id="Social">
+            <a href="https://www.linkedin.com/in/adsondias/" target="_blank"><img src="./img/linkedin.webp"></a>
+            <a href="https://github.com/AdsonDiass/AdsonDiass" target="_blank"> <img src="./img/github.png" alt=""></a>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.415960927095!2d-37.453113699999996!3d-11.254699099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7107012e4de6781%3A0x2e46ea8df410fb42!2sEst%C3%A2ncia%2C%20SE%2C%2049200-000!5e0!3m2!1spt-BR!2sbr!4v1620111560975!5m2!1spt-BR!2sbr" width="300" height="200"  style="border:0; position: absolute; bottom: 50; right: 0;" allowfullscreen="" loading="lazy"></iframe>
+      </footer>
+
+      
+      
+
+      <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="enviar_email.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <script>
+      // Função para gerar o link de e-mail com os parâmetros preenchidos
+      function enviarEmail() {
+          var nome = document.getElementById("nome").value;
+          var email = document.getElementById("email").value;
+          var mensagem = document.getElementById("mensagem").value;
+  
+          var assunto = "Contato pelo site de " + nome;
+  
+          var corpoEmail = "Nome: " + nome + "%0D%0A";
+          corpoEmail += "Email: " + email + "%0D%0A%0D%0A";
+          corpoEmail += "Mensagem:%0D%0A" + mensagem;
+  
+          // Redireciona para o Gmail com os parâmetros preenchidos
+          var link = "mailto:adson.jesus@gmail.com"
+                   + "?subject=" + encodeURIComponent(assunto)
+                   + "&body=" + encodeURIComponent(corpoEmail);
+  
+          window.location.href = link;
+      }
+  
+      // Adiciona um evento de clique ao link de enviar
+      document.getElementById("enviar").addEventListener("click", function(event) {
+          event.preventDefault(); // Previne o comportamento padrão do link
+          enviarEmail(); // Chama a função para enviar o e-mail
+      });
+  </script>
+
+
+  
+    
+
+  </body>
+</html>
