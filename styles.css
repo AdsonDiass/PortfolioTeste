@@ -470,3 +470,8 @@ footer p {
         margin: 10px 0;
     }
 }
+
+/* Correção para evitar a barra de rolagem horizontal */
+body {
+    overflow-x: hidden;
+}
