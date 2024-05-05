@@ -135,3 +135,22 @@ a:hover {
 #surpresa:active {
     transform: scale(0.95);
 }
+
+/*deixar responsivo*/
+@media (max-width: 767px) {
+    main {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .section-content {
+        font-size: 16px;
+    }
+}

@@ -417,3 +417,23 @@ footer p {
         background-color: #9e0d0d;
     }
 </style>
+
+
+/* Estilos para a seção de habilidades em dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    #habilidades ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #habilidades ul li {
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para a seção de contato em dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    #contato form {
+        max-width: 100%;
+    }
+}
