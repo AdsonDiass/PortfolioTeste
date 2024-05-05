@@ -485,7 +485,6 @@ footer p {
     }
 }
 
-
 /* Estilos para o "Sobre Mim" em dispositivos móveis */
 @media only screen and (max-width: 768px) {
     .sobre-mim {
@@ -513,10 +512,4 @@ footer p {
         font-size: 16px; /* Reduz o tamanho da fonte do botão */
         padding: 10px 20px; /* Reduz o preenchimento do botão */
     }
-}
-
-/* Estilos para evitar a barra de rolagem horizontal */
-section {
-    max-width: 100%;
-    overflow-x: hidden;
 }
