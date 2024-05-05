@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+
+li::before {
+    content: '\2022';
+    color: #007bff;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.section-container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.section-content {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.section-content p:last-child {
+    margin-bottom: 0;
+}
+
+.section-content p:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-content p {
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.skill-bar-fill {
+    background-color: #007bff;
+    height: 10px;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+
+.skill-bar-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-bar-percent {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Surpresa */
+
+.container {
+    text-align: center;
+}
+
+#surpresa {
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#surpresa:hover {
+    color: #0056b3;
+    border-color: #0056b3;
+}
+
+#surpresa:active {
+    transform: scale(0.95);
+}
