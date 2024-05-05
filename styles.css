@@ -497,22 +497,22 @@ body, html {
 @media only screen and (max-width: 768px) {
     .sobre-mim {
         position: static;
-        text-align: left;
+        text-align: center;
         margin-top: 20px; /* Adiciona uma margem superior para separar da navegação */
     }
 
-    h2 {
+    .sobre-mim h2 {
         font-size: 32px; /* Reduz o tamanho do título principal */
     }
 
-    p {
+    .sobre-mim p {
         font-size: 16px; /* Reduz o tamanho do texto */
         margin-top: 10px; /* Adiciona uma margem superior para separar do título */
         margin-bottom: 20px; /* Adiciona uma margem inferior para separar do botão */
     }
 
-    .Curriculo,
-    button {
+    .sobre-mim .Curriculo,
+    .sobre-mim button {
         font-size: 16px; /* Reduz o tamanho da fonte do botão */
         padding: 10px 20px; /* Reduz o preenchimento do botão */
     }
