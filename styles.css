@@ -495,7 +495,7 @@ body, html {
 
 /* Estilos para o "Sobre Mim" em dispositivos móveis */
 @media only screen and (max-width: 768px) {
-    .meu-nome {
+    .Meu-nome {
         position: static; /* Remova a posição absoluta para permitir que o conteúdo flua normalmente */
         margin-top: 20px; /* Adicione um espaçamento superior */
         text-align: center; /* Centralize o texto */
