@@ -453,6 +453,19 @@ footer p {
         max-width: 300px; /* Defina uma largura máxima para evitar que os cards fiquem muito grandes */
         margin-bottom: 30px; /* Adicione um espaçamento entre os cards */
     }
+
+    .card h5 {
+        font-size: 20px; /* Reduz o tamanho da fonte do título */
+    }
+
+    .card p {
+        font-size: 16px; /* Reduz o tamanho da fonte do texto */
+    }
+
+    .card a {
+        padding: 8px 16px; /* Reduz o preenchimento do link */
+        font-size: 14px; /* Reduz o tamanho da fonte do link */
+    }
 }
 
 /* Estilos para o menu de navegação em dispositivos móveis */
@@ -468,6 +481,7 @@ footer p {
 
     li {
         margin: 10px 0;
+        font-size: 18px; /* Reduz o tamanho da fonte dos itens do menu */
     }
 }
 
