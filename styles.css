@@ -517,3 +517,9 @@ body, html {
         padding: 10px 20px; /* Reduz o preenchimento do botão */
     }
 }
+/* Estilos para evitar a barra de rolagem horizontal */
+section {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
