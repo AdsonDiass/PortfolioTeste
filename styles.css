@@ -471,12 +471,10 @@ footer p {
     }
 }
 
-/* Define a largura máxima para todos os elementos */
-* {
-    max-width: 100%;
-}
-
 /* Correção para evitar a barra de rolagem horizontal */
-body {
+body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
     overflow-x: hidden;
 }
