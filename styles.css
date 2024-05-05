@@ -497,7 +497,7 @@ body, html {
 @media only screen and (max-width: 768px) {
     .sobre-mim {
         position: static;
-        text-align: center;
+        text-align: left;
         margin-top: 20px; /* Adiciona uma margem superior para separar da navegação */
     }
 
