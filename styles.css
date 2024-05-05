@@ -491,13 +491,15 @@ footer p {
         position: static;
         text-align: center;
         margin-top: 20px; /* Adiciona uma margem superior para separar da navegação */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .sobre-mim h2 {
         font-size: 32px; /* Reduz o tamanho do título principal */
+    }
+
+    .sobre-mim img {
+        display: block; /* Faz com que a imagem seja exibida como bloco para poder alinhar o texto abaixo dela */
+        margin: 0 auto 20px; /* Centraliza a imagem horizontalmente e adiciona margem inferior */
     }
 
     .sobre-mim p {
