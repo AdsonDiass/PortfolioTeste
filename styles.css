@@ -496,30 +496,30 @@ body, html {
 /* Estilos para o "Sobre Mim" em dispositivos móveis */
 @media only screen and (max-width: 768px) {
     .sobre-mim {
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 50px;
+        position: static;
+        text-align: center;
+        margin-top: 20px; /* Adiciona uma margem superior para separar da navegação */
     }
-  
-    .sobre-mim img {
-      display: block;
-      margin: 0 auto 20px; /* Centraliza a imagem e adiciona espaço abaixo dela */
-    }
-  
+
     .sobre-mim h2 {
-      font-size: 32px;
+        font-size: 32px; /* Reduz o tamanho do título principal */
     }
-  
+
     .sobre-mim p {
-      font-size: 16px;
-      margin-top: 10px;
-      margin-bottom: 20px;
+        font-size: 16px; /* Reduz o tamanho do texto */
+        margin-top: 10px; /* Adiciona uma margem superior para separar do título */
+        margin-bottom: 20px; /* Adiciona uma margem inferior para separar do botão */
     }
-  
+
     .sobre-mim .Curriculo,
     .sobre-mim button {
-      font-size: 16px;
-      padding: 10px 20px;
+        font-size: 16px; /* Reduz o tamanho da fonte do botão */
+        padding: 10px 20px; /* Reduz o preenchimento do botão */
     }
-  }
-  
+}
+
+/* Estilos para evitar a barra de rolagem horizontal */
+section {
+    max-width: 100%;
+    overflow-x: hidden;
+}
