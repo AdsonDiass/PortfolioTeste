@@ -496,16 +496,17 @@ body, html {
 /* Estilos para o "Sobre Mim" em dispositivos móveis */
 @media only screen and (max-width: 768px) {
     .meu-nome {
-        position: static; /* Remova a posição absoluta para permitir que o conteúdo flua normalmente */
-        margin-top: 20px; /* Adicione um espaçamento superior */
         text-align: center; /* Centralize o texto */
+        margin-top: 20px; /* Adicione um espaçamento superior */
     }
 
-    h1 {
-        font-size: 40px; /* Reduza o tamanho da fonte do título principal */
+    .meu-nome h1 {
+        font-size: 30px; /* Reduza o tamanho da fonte do título principal */
+        margin-bottom: 10px; /* Adicione um espaçamento inferior */
     }
 
-    h3 {
-        font-size: 18px; /* Reduza o tamanho da fonte do subtítulo */
+    .meu-nome h3 {
+        font-size: 16px; /* Reduza o tamanho da fonte do subtítulo */
     }
 }
+
