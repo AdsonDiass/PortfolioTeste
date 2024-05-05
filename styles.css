@@ -500,6 +500,7 @@ body, html {
         text-align: center;
         margin-top: 20px; /* Adiciona uma margem superior para separar da navegação */
         width: 100%; /* Garante que a largura da seção seja igual à largura da tela */
+        margin-bottom: 50px; /* Adiciona uma margem inferior para separar da próxima seção */
     }
 
     .sobre-mim h2 {
