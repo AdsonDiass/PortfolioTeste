@@ -485,13 +485,6 @@ footer p {
     }
 }
 
-/* Correção para evitar a barra de rolagem horizontal */
-body, html {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
 /* Estilos para o "Sobre Mim" em dispositivos móveis */
 @media only screen and (max-width: 768px) {
