@@ -495,24 +495,24 @@ body, html {
 
 /* Estilos para o "Sobre Mim" em dispositivos móveis */
 @media only screen and (max-width: 768px) {
-    .Meu-nome {
-        position: static; /* Remova a posição absoluta para permitir que o conteúdo flua normalmente */
-        margin-top: 20px; /* Adicione um espaçamento superior */
-        text-align: center; /* Centralize o texto */
+    .meu-nome {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
     }
 
     h2 {
-        font-size: 30px; /* Reduza o tamanho da fonte do título principal */
+        font-size: 30px;
     }
 
     p {
-        font-size: 18px; /* Reduza o tamanho da fonte do texto */
-        margin-bottom: 20px; /* Adicione um espaçamento inferior */
+        font-size: 18px;
+        margin-bottom: 20px;
     }
 
     .Curriculo,
     button {
-        font-size: 16px; /* Reduza o tamanho da fonte dos botões */
-        padding: 10px 20px; /* Ajuste o preenchimento dos botões */
+        font-size: 16px;
+        padding: 10px 20px;
     }
 }
