@@ -497,22 +497,27 @@ body, html {
 @media only screen and (max-width: 768px) {
     .meu-nome {
         position: static;
-        margin-top: 20px;
         text-align: center;
+        margin-top: 20px; /* Adiciona uma margem superior para separar da navegação */
     }
 
-    h2 {
-        font-size: 30px;
+    h1 {
+        font-size: 48px; /* Reduz o tamanho do título principal */
+    }
+
+    h3 {
+        font-size: 20px; /* Reduz o tamanho do subtítulo */
     }
 
     p {
-        font-size: 18px;
-        margin-bottom: 20px;
+        font-size: 16px; /* Reduz o tamanho do texto */
+        margin-top: 10px; /* Adiciona uma margem superior para separar do título */
+        margin-bottom: 20px; /* Adiciona uma margem inferior para separar do botão */
     }
 
     .Curriculo,
     button {
-        font-size: 16px;
-        padding: 10px 20px;
+        font-size: 16px; /* Reduz o tamanho da fonte do botão */
+        padding: 10px 20px; /* Reduz o preenchimento do botão */
     }
 }
