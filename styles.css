@@ -517,3 +517,24 @@ footer p {
         padding: 10px 20px; /* Reduz o preenchimento do botão */
     }
 }
+
+
+/* Limita a largura do conteúdo principal */
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Limita a largura das seções */
+section {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0 20px; /* Adiciona um espaçamento horizontal para evitar que os elementos encostem nas bordas da tela */
+}
+
+/* Limita a largura do formulário de contato */
+#contato form {
+    width: 100%;
+    max-width: 400px; /* Define uma largura máxima para o formulário */
+    margin: 0 auto; /* Centraliza o formulário na tela */
+}
