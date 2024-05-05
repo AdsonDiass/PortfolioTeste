@@ -445,3 +445,20 @@ footer p {
         align-items: center;
     }
 }
+
+
+/* Estilos para o menu de navegação em dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio {
+        margin-bottom: 20px;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+}
