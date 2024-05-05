@@ -418,60 +418,21 @@ footer p {
     }
 </style>
 
-
-/* Estilos para a seção de habilidades em dispositivos móveis */
-@media only screen and (max-width: 768px) {
-    #habilidades ul {
-        flex-direction: column;
-        align-items: center;
+/*deixar responsivo*/
+@media (max-width: 767px) {
+    main {
+        padding: 10px;
     }
 
-    #habilidades ul li {
-        margin: 10px 0;
-    }
-}
-
-/* Estilos para a seção de contato em dispositivos móveis */
-@media only screen and (max-width: 768px) {
-    #contato form {
-        width: 100%; /* Altera a largura do formulário para ocupar toda a largura disponível */
-        max-width: 400px; /* Adicione uma largura máxima para o formulário */
-        margin: 0 auto; /* Centralize o formulário na página */
-    }
-}
-
-/* Estilos para a seção de projetos em dispositivos móveis */
-@media only screen and (max-width: 768px) {
-    .card-projetos {
-        flex-direction: column; /* Altera a direção dos cards para uma coluna */
-        align-items: center; /* Centraliza os cards horizontalmente */
+    h2 {
+        font-size: 28px;
     }
 
-    /* Ajuste para os cards ocuparem toda a largura disponível */
-    .card {
-        width: 100%;
-        max-width: 300px; /* Defina uma largura máxima para evitar que os cards fiquem muito grandes */
-        margin-bottom: 30px; /* Adicione um espaçamento entre os cards */
-    }
-}
-
-/* Estilos para o menu de navegação em dispositivos móveis */
-@media only screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
+    .section-title {
+        font-size: 24px;
     }
 
-    .portfolio {
-        margin-bottom: 20px;
+    .section-content {
+        font-size: 16px;
     }
-
-    li {
-        margin: 10px 0;
-    }
-}
-
-/* Correção para evitar a barra de rolagem horizontal */
-body {
-    overflow-x: hidden;
 }
